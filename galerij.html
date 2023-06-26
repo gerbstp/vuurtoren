@@ -5,6 +5,10 @@
     <meta name="description" content="Testomgeving met informatie over de vuurtoren op Vlieland.">
     <meta name="keywords" content="vuurtoren, vlieland, bezoeken, informatie">
     <title>Galerij</title>
+    <style>
+    .columndiv img {width:100%}
+    #columncontainer div {vertical-align:top}
+</style>
 </head>
 <body>
     <!--
@@ -17,7 +21,7 @@
     -->
     <header class="mainheader" style="background-color:lightcyan">
         <div style="width:40%; display:inline-block">
-            <img src="afbeeldingen/logo-vuurtoren-vlieland.png" style="width: 100px; max-width:100%" alt="Vuurtoren Vlieland logo">
+            <img src="afbeeldingen/logo-vuurtoren-vlieland.png" style="width: 200px; max-width:100%" alt="Vuurtoren Vlieland logo">
         </div>
         <div style="display:inline-block; width:57%">
             <nav style="text-align:center">
@@ -32,14 +36,14 @@
             <h1>Galerij</h1>
         </header>
         <h2>Afbeeldingen</h2>
-        <div class="columncontainer">
-            <div style="width:30%; display:inline-block">
+        <div id="columncontainer">
+            <div style="width:30%; display:inline-block" class="columndiv">
                 <img src="afbeeldingen/vuurtoren1.jpg" alt="Vuurtoren"><img src="afbeeldingen/vuurtoren2.jpg" alt="Vuurtoren"><img src="afbeeldingen/vuurtoren4.jpg" alt="Vuurtoren">
                 </div>
-            <div style="width:30%; display:inline-block">
+            <div style="width:30%; display:inline-block" class="columndiv">
                 <img src="afbeeldingen/vuurtoren5.jpg" alt="Vuurtoren"><img src="afbeeldingen/vuurtoren6.jpg" alt="Vuurtoren"><img src="afbeeldingen/vuurtoren7.jpg" alt="Vuurtoren"><img src="afbeeldingen/vuurtoren8.jpg" alt="Vuurtoren">
                 </div>
-            <div style="width:30%; display:inline-block">
+            <div style="width:30%; display:inline-block" class="columndiv">
                 <img src="afbeeldingen/vuurtoren9.jpg" alt="Vuurtoren"><img src="afbeeldingen/vuurtoren10.jpg" alt="Vuurtoren"><img src="afbeeldingen/vuurtoren11.jpg" alt="Vuurtoren"><img src="afbeeldingen/vuurtoren12.jpg" alt="Vuurtoren">
                 </div>
         </div>
@@ -61,10 +65,7 @@
         </table>
     </section>
     <footer>
-<style>
-    div img {width:100%}
-    .columncontainer div {vertical-align:top}
-</style>
+
     </footer>
 </body>
 </html>
